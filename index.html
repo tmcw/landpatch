@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+        <meta name='viewport' content='initial-scale=1.0 maximum-scale=1.0'>
+        <style>
+        body {
+            background: #000; padding:0; margin: 0;
+        }
+        canvas {
+            position:absolute; top:0; left: 0;
+        }
+        #thisone {
+            position:absolute;
+            top:100px;
+            left:100px;
+            padding:10px;
+            background:#000;
+            border:1px solid yellow;
+            color:#eee;
+            font:normal 14px/25px sans-serif;
+            text-align:center;
+            text-transform:uppercase;
+        }
+        #sample {
+            width:200px;
+            height:200px;
+        }
+        #date, #latlon {
+            width:100px;
+            display:inline-block;
+        }
+        </style>
+    </head>
+    <body>
+        <canvas id='c'></canvas>
+        <canvas id='c2'></canvas>
+        <div id='thisone'>
+            <div>Landsat 8</div>
+            <img src='' id='sample' />
+            <div>
+                <div id='latlon'></div>
+                <div id='date'></div>
+            </div>
+        </div>
+        <script src='moment-with-langs.min.js'></script>
+        <script src='files.js'></script>
+        <script src='landpatch.js'></script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "landpatch",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "feedparser": "~0.16.6",
+    "request": "~2.34.0",
+    "moment": "~2.5.1",
+    "queue-async": "~1.0.7",
+    "glob": "~3.2.9",
+    "cheerio": "~0.13.1",
+    "concat-stream": "~1.4.4",
+    "canvas": "~1.1.3"
+  }
+}
