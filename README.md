@@ -9,7 +9,7 @@ This plays against two different APIs for the same thing: Google does a mirror
 of Landsat 8 imagery that you can access with [gsutil](https://developers.google.com/storage/docs/gsutil):
 
 ```
-gsutil ls -R "gs://earthengine-public/landsat/L8/**" > scenes-all
+gsutil ls -R "gs://earthengine-public/landsat/L8/**" > scenes-recursive
 ```
 
 This just lists and dumps all of the URLs, which include IDs.
