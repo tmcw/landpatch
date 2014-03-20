@@ -14,7 +14,6 @@ files = files.filter(function(f) {
 
 console.log(files.length, 'files in loop');
 
-
 c.width = width;
 c.height = height;
 
@@ -34,7 +33,6 @@ function proj(xy) {
 
 var sample = document.getElementById('sample');
 var latlondiv = document.getElementById('latlon');
-
 var i = 0;
 
 ctx.fillStyle = '#000';
@@ -61,6 +59,7 @@ function grab() {
         c2.width = width;
         ctx2.strokeStyle = 'yellow';
         ctx2.lineWidth = 1;
+        ctx2.beginPath();
         ctx2.rect(~~p[0], ~~p[1], ~~w, ~~h);
 
         function mt(x, y) {
@@ -84,7 +83,7 @@ function grab() {
         lt(p[0] + w/2, p[1] + h + 10);
 
         ctx2.stroke();
-        setTimeout(grab, 1 * 5);
+        setTimeout(grab, 1 * 500);
     };
     sample.src = f;
 }
