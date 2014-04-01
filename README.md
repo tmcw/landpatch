@@ -1,5 +1,7 @@
 # landpatch
 
+![](https://farm4.staticflickr.com/3762/13562203935_1be00d8dbf_o.jpg)
+
 Code for downloading & visualizing [Landsat 8](http://www.nasa.gov/mission_pages/landsat/main/) raster
 images.
 
