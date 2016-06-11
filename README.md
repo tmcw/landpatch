@@ -29,3 +29,7 @@ box & collection date of each image.
 
 Then, the web interface is simple - a basic equirectangular projection implemented
 with 'just Canvas', using [momentjs](http://momentjs.com/) for time parsing.
+
+## troubleshooting
+
+This code requires a high ulimit value. If you run into an EMFILE error, [try increasing your ulimit](https://encrypted.google.com/search?hl=en&q=stackoverflow%20increase%20ulimit).
