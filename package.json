@@ -9,15 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "feedparser": "~0.16.6",
-    "request": "~2.34.0",
-    "moment": "~2.5.1",
-    "queue-async": "~1.0.7",
-    "glob": "~3.2.9",
-    "cheerio": "~0.13.1",
-    "concat-stream": "~1.4.4",
-    "canvas": "~1.1.3",
+    "feedparser": "~2.1.0",
+    "request": "~2.81.0",
+    "moment": "~2.18.1",
+    "queue-async": "~1.2.1",
+    "glob": "~7.1.1",
+    "cheerio": "~0.22.0",
+    "concat-stream": "~1.6.0",
+    "canvas": "~1.6.5",
     "imagemagick-stream": "https://github.com/eivindfjeldstad/imagemagick-stream/archive/master.tar.gz",
-    "split": "0.3.0"
+    "split": "1.0.0"
   }
 }
